@@ -119,7 +119,7 @@ export default function RootLayout({
               },
               "contactPoint": {
                 "@type": "ContactPoint",
-                "email": "contact@aiglobal.kr",
+                "email": "aiglobal1@naver.com",
                 "contactType": "customer service"
               },
               "sameAs": [

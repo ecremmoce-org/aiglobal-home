@@ -22,8 +22,8 @@ const contactMethods = [
       </svg>
     ),
     label: 'email',
-    value: 'contact@aiglobal.kr',
-    href: 'mailto:contact@aiglobal.kr',
+    value: 'aiglobal1@naver.com',
+    href: 'mailto:aiglobal1@naver.com',
   },
 ];
 

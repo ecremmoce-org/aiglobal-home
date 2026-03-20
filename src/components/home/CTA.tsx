@@ -78,10 +78,10 @@ export default function CTA() {
           </Link>
           
           <a
-            href="mailto:contact@aiglobal.kr"
+            href="mailto:aiglobal1@naver.com"
             className="flex items-center gap-2 px-6 py-3.5 text-gray-400 hover:text-white transition-colors text-sm"
           >
-            <span>contact@aiglobal.kr</span>
+            <span>aiglobal1@naver.com</span>
             <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
             </svg>
