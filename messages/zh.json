@@ -1,0 +1,166 @@
+{
+  "common": {
+    "company": "ecremmoce",
+    "tagline": "颠覆电商",
+    "learnMore": "了解更多",
+    "contactUs": "联系我们",
+    "getStarted": "开始使用",
+    "viewAll": "查看全部"
+  },
+  "nav": {
+    "home": "首页",
+    "about": "关于我们",
+    "services": "服务",
+    "ir": "投资者关系",
+    "news": "新闻",
+    "contact": "联系我们"
+  },
+  "hero": {
+    "title": "All-in-One\n电商套件",
+    "subtitle": "销售 · 物流 · 管理 · 增长\n一个平台解决全球电商的一切需求。",
+    "cta": "探索套件",
+    "badge": "颠覆电商"
+  },
+  "services": {
+    "title": "我们的服务",
+    "subtitle": "连接全球电商的一切",
+    "acsell": {
+      "name": "acsell.ai",
+      "title": "海外销售加速",
+      "description": "通过全球市场整合管理最大化海外销售。一站式管理Qoo10、Shopee、Amazon等主要平台。"
+    },
+    "send4u": {
+      "name": "send4u.ai",
+      "title": "物流优化",
+      "description": "通过AI物流优化降低运费、缩短配送时间。体验实时跟踪和自动化配送流程。"
+    },
+    "ohmyorder": {
+      "name": "ohmyorder.com",
+      "title": "订单整合",
+      "description": "统一管理所有渠道的订单。高效处理库存同步、订单处理和客户管理。"
+    },
+    "market4u": {
+      "name": "market4u.ai",
+      "title": "AI营销",
+      "description": "利用AI分析的全球趋势和定制营销策略攻克海外市场。支持数据驱动决策。"
+    }
+  },
+  "stats": {
+    "title": "数字说话",
+    "clients": "全球合作伙伴",
+    "countries": "进入国家",
+    "orders": "月处理订单",
+    "growth": "平均收入增长"
+  },
+  "about": {
+    "title": "关于我们",
+    "subtitle": "颠覆电商，开启新可能",
+    "story": {
+      "title": "ecremmoce的诞生",
+      "content": "ecremmoce是将'ecommerce'倒写的新词。我们不受既定顺序和方向的束缚。直购与反向直购、出口与进口——我们自由地向各个方向移动，开启全球商务的新可能。",
+      "highlight": "ecommerce → ecremmoce"
+    },
+    "vision": {
+      "title": "愿景",
+      "content": "创造一个所有卖家都能不受国界和方向限制、自由交易的世界。"
+    },
+    "mission": {
+      "title": "使命",
+      "content": "用技术和数据解决全球电商的复杂性，为所有企业提供双向贸易机会。"
+    },
+    "values": {
+      "title": "核心价值观",
+      "innovation": {
+        "title": "创新",
+        "description": "通过持续的技术创新创造新价值"
+      },
+      "trust": {
+        "title": "信任",
+        "description": "将与合作伙伴的信任放在首位"
+      },
+      "global": {
+        "title": "全球化",
+        "description": "以世界为舞台追求无边界商业"
+      },
+      "growth": {
+        "title": "成长",
+        "description": "合作伙伴的成长就是我们的成长"
+      }
+    },
+    "history": {
+      "title": "发展历程"
+    }
+  },
+  "ir": {
+    "title": "投资者关系",
+    "subtitle": "投资者信息",
+    "overview": {
+      "title": "公司概况",
+      "description": "ecremmoce是一家提供全球电商解决方案的科技公司。"
+    },
+    "financials": {
+      "title": "财务信息",
+      "description": "为透明经营公开财务信息。"
+    },
+    "disclosures": {
+      "title": "披露资料",
+      "description": "查看法定披露和重要经营信息。"
+    },
+    "download": "下载"
+  },
+  "news": {
+    "title": "新闻",
+    "subtitle": "ecremmoce最新动态",
+    "categories": {
+      "all": "全部",
+      "notice": "公告",
+      "press": "新闻稿",
+      "update": "更新"
+    },
+    "readMore": "阅读更多",
+    "noNews": "暂无新闻。"
+  },
+  "contact": {
+    "title": "联系我们",
+    "subtitle": "如有任何问题请随时联系我们",
+    "form": {
+      "name": "姓名",
+      "email": "邮箱",
+      "company": "公司",
+      "phone": "电话",
+      "subject": "咨询类型",
+      "message": "咨询内容",
+      "submit": "发送消息",
+      "subjects": {
+        "general": "一般咨询",
+        "partnership": "合作伙伴",
+        "support": "技术支持",
+        "investment": "投资咨询"
+      }
+    },
+    "info": {
+      "title": "联系方式",
+      "address": "首尔市瑞草区东山路8街41号，成铉大厦2-4层",
+      "email": "contact@ecremmoce.io",
+      "phone": "+82-2-6925-4100"
+    },
+    "success": "您的消息已成功发送。"
+  },
+  "footer": {
+    "description": "Freedom of CBEC Sellers. 颠覆电商，开启新可能。",
+    "services": "服务",
+    "company": "公司",
+    "legal": "法律声明",
+    "privacy": "隐私政策",
+    "terms": "服务条款",
+    "copyright": "© 2024 ecremmoce株式会社. 保留所有权利。",
+    "companyInfo": {
+      "name": "ecremmoce株式会社",
+      "ceo": "代表: 郑昌元",
+      "address": "首尔市瑞草区东山路8街41号，成铉大厦2-4层",
+      "bizNo": "营业执照号: 373-87-01553",
+      "phone": "客服中心: +82-2-6925-4100"
+    }
+  }
+}
+

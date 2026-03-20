@@ -1,0 +1,166 @@
+{
+  "common": {
+    "company": "ecremmoce",
+    "tagline": "Eコマースを逆転する",
+    "learnMore": "詳しく見る",
+    "contactUs": "お問い合わせ",
+    "getStarted": "始める",
+    "viewAll": "すべて見る"
+  },
+  "nav": {
+    "home": "ホーム",
+    "about": "会社紹介",
+    "services": "サービス",
+    "ir": "IR",
+    "news": "お知らせ",
+    "contact": "お問い合わせ"
+  },
+  "hero": {
+    "title": "All-in-One\nEコマース Suite",
+    "subtitle": "販売 · 配送 · 管理 · 成長\nグローバルEコマースのすべてを一つのプラットフォームで。",
+    "cta": "Suiteを見る",
+    "badge": "Eコマースを逆転する"
+  },
+  "services": {
+    "title": "サービス",
+    "subtitle": "グローバルEコマースのすべてを繋ぎます",
+    "acsell": {
+      "name": "acsell.ai",
+      "title": "海外販売加速化",
+      "description": "グローバルマーケットプレイス統合管理で海外販売を最大化。Qoo10、Shopee、Amazonなど主要プラットフォームを一括管理します。"
+    },
+    "send4u": {
+      "name": "send4u.ai",
+      "title": "海外配送最適化",
+      "description": "AI基盤の物流最適化で配送コストを削減し、配送時間を短縮します。リアルタイム追跡と自動化された配送プロセスを体験してください。"
+    },
+    "ohmyorder": {
+      "name": "ohmyorder.com",
+      "title": "海外注文統合",
+      "description": "すべてのチャネルの注文を一つに統合管理します。在庫同期、注文処理、顧客管理を効率的に運営してください。"
+    },
+    "market4u": {
+      "name": "market4u.ai",
+      "title": "AIマーケティング",
+      "description": "AIが分析するグローバルトレンドとカスタマイズされたマーケティング戦略で海外市場を攻略してください。データ基盤の意思決定を支援します。"
+    }
+  },
+  "stats": {
+    "title": "数字で見るecremmoce",
+    "clients": "グローバルパートナー",
+    "countries": "進出国",
+    "orders": "月間処理注文",
+    "growth": "平均売上成長率"
+  },
+  "about": {
+    "title": "会社紹介",
+    "subtitle": "Eコマースを逆転し、新しい可能性を開く",
+    "story": {
+      "title": "ecremmoceの誕生",
+      "content": "ecremmoceは「ecommerce」を逆さにした造語です。私たちは決められた順序や方向に縛られません。直接購入と逆直購入、輸出と輸入 — あらゆる方向に自由に動き、グローバルコマースの新しい可能性を開いていきます。",
+      "highlight": "ecommerce → ecremmoce"
+    },
+    "vision": {
+      "title": "ビジョン",
+      "content": "世界中のすべてのセラーが国境や方向の制約なく自由に取引できる世界を作ります。"
+    },
+    "mission": {
+      "title": "ミッション",
+      "content": "技術とデータでグローバルEコマースの複雑さを解決し、双方向貿易の機会をすべてのビジネスに提供します。"
+    },
+    "values": {
+      "title": "コアバリュー",
+      "innovation": {
+        "title": "革新",
+        "description": "絶え間ない技術革新で新しい価値を創出します"
+      },
+      "trust": {
+        "title": "信頼",
+        "description": "パートナーとの信頼を最優先に考えます"
+      },
+      "global": {
+        "title": "グローバル",
+        "description": "世界を舞台に境界のないビジネスを目指します"
+      },
+      "growth": {
+        "title": "成長",
+        "description": "パートナーの成長がすなわち私たちの成長です"
+      }
+    },
+    "history": {
+      "title": "沿革"
+    }
+  },
+  "ir": {
+    "title": "IR",
+    "subtitle": "投資家情報",
+    "overview": {
+      "title": "会社概要",
+      "description": "ecremmoceはグローバルEコマースソリューションを提供する技術企業です。"
+    },
+    "financials": {
+      "title": "財務情報",
+      "description": "透明な経営のために財務情報を公開します。"
+    },
+    "disclosures": {
+      "title": "開示資料",
+      "description": "法定開示および主要経営情報をご確認ください。"
+    },
+    "download": "ダウンロード"
+  },
+  "news": {
+    "title": "お知らせ",
+    "subtitle": "ecremmoceの最新ニュースをお届けします",
+    "categories": {
+      "all": "すべて",
+      "notice": "お知らせ",
+      "press": "プレスリリース",
+      "update": "アップデート"
+    },
+    "readMore": "詳しく見る",
+    "noNews": "登録されたニュースがありません。"
+  },
+  "contact": {
+    "title": "お問い合わせ",
+    "subtitle": "ご質問がございましたらお気軽にご連絡ください",
+    "form": {
+      "name": "お名前",
+      "email": "メールアドレス",
+      "company": "会社名",
+      "phone": "電話番号",
+      "subject": "お問い合わせ種類",
+      "message": "お問い合わせ内容",
+      "submit": "送信する",
+      "subjects": {
+        "general": "一般お問い合わせ",
+        "partnership": "パートナーシップ",
+        "support": "技術サポート",
+        "investment": "投資お問い合わせ"
+      }
+    },
+    "info": {
+      "title": "連絡先情報",
+      "address": "ソウル市瑞草区東山路8ギル41、成鉉ビル2階〜4階",
+      "email": "contact@ecremmoce.io",
+      "phone": "+82-2-6925-4100"
+    },
+    "success": "お問い合わせが正常に送信されました。"
+  },
+  "footer": {
+    "description": "Freedom of CBEC Sellers. Eコマースを逆転し、新しい可能性を開いていきます。",
+    "services": "サービス",
+    "company": "会社",
+    "legal": "法的事項",
+    "privacy": "プライバシーポリシー",
+    "terms": "利用規約",
+    "copyright": "© 2024 株式会社イクレモス. All rights reserved.",
+    "companyInfo": {
+      "name": "株式会社イクレモス",
+      "ceo": "代表: チョン・チャンウォン",
+      "address": "ソウル市瑞草区東山路8ギル41、成鉉ビル2階〜4階",
+      "bizNo": "事業者登録番号: 373-87-01553",
+      "phone": "カスタマーセンター: +82-2-6925-4100"
+    }
+  }
+}
+

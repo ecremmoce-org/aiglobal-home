@@ -1,0 +1,57 @@
+<svg width="1280" height="720" viewBox="0 0 1280 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f0f23"/>
+      <stop offset="50%" style="stop-color:#1a1a2e"/>
+      <stop offset="100%" style="stop-color:#0f0f23"/>
+    </linearGradient>
+    <linearGradient id="text-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#818cf8"/>
+      <stop offset="50%" style="stop-color:#a78bfa"/>
+      <stop offset="100%" style="stop-color:#c084fc"/>
+    </linearGradient>
+    <linearGradient id="play-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6366f1"/>
+      <stop offset="100%" style="stop-color:#8b5cf6"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1280" height="720" fill="url(#bg-gradient)"/>
+  
+  <!-- Grid pattern -->
+  <g opacity="0.08">
+    <pattern id="grid" width="80" height="80" patternUnits="userSpaceOnUse">
+      <path d="M 80 0 L 0 0 0 80" fill="none" stroke="#6366f1" stroke-width="1"/>
+    </pattern>
+    <rect width="1280" height="720" fill="url(#grid)"/>
+  </g>
+  
+  <!-- Glow effect -->
+  <ellipse cx="640" cy="360" rx="400" ry="300" fill="#6366f1" opacity="0.1" filter="blur(100px)"/>
+  
+  <!-- Main text -->
+  <text x="640" y="280" font-family="system-ui, -apple-system, sans-serif" font-size="64" font-weight="bold" fill="url(#text-gradient)" text-anchor="middle">ecremmoce</text>
+  
+  <!-- Subtitle -->
+  <text x="640" y="340" font-family="system-ui, -apple-system, sans-serif" font-size="28" fill="#9ca3af" text-anchor="middle">Building an Era Where Global Ecommerce Flows Seamlessly</text>
+  
+  <!-- Play button -->
+  <g transform="translate(640, 480)">
+    <circle cx="0" cy="0" r="50" fill="url(#play-gradient)" opacity="0.9"/>
+    <circle cx="0" cy="0" r="60" fill="none" stroke="#6366f1" stroke-width="2" opacity="0.5"/>
+    <polygon points="15,-20 15,20 -10,0" fill="white" transform="translate(-5, 0)"/>
+  </g>
+  
+  <!-- Services -->
+  <g transform="translate(640, 600)">
+    <text x="-350" y="0" font-family="system-ui, sans-serif" font-size="18" fill="#10b981" text-anchor="middle">SELL</text>
+    <text x="-120" y="0" font-family="system-ui, sans-serif" font-size="18" fill="#f59e0b" text-anchor="middle">SHIP</text>
+    <text x="120" y="0" font-family="system-ui, sans-serif" font-size="18" fill="#ec4899" text-anchor="middle">MANAGE</text>
+    <text x="350" y="0" font-family="system-ui, sans-serif" font-size="18" fill="#06b6d4" text-anchor="middle">GROW</text>
+  </g>
+  
+  <!-- URL -->
+  <text x="640" y="680" font-family="system-ui, sans-serif" font-size="16" fill="#4b5563" text-anchor="middle">www.ecremmoce.io</text>
+</svg>
+

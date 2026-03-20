@@ -1,0 +1,152 @@
+{
+  "common": {
+    "company": "ecremmoce",
+    "tagline": "이커머스를 뒤집다",
+    "learnMore": "자세히 보기",
+    "contactUs": "문의하기",
+    "getStarted": "시작하기",
+    "viewAll": "전체 보기"
+  },
+  "nav": {
+    "home": "홈",
+    "about": "회사소개",
+    "services": "서비스",
+    "newsroom": "뉴스룸",
+    "contact": "문의"
+  },
+  "hero": {
+    "title": "All-in-One\nE-commerce Suite",
+    "subtitle": "판매 · 배송 · 관리 · 성장\n하나의 플랫폼에서 글로벌 이커머스의 모든 것을 해결합니다.",
+    "cta": "Suite 살펴보기",
+    "badge": "ecommerce를 뒤집다"
+  },
+  "services": {
+    "title": "우리의 서비스",
+    "subtitle": "글로벌 이커머스의 모든 것을 연결합니다",
+    "acsell": {
+      "name": "acsell.ai",
+      "title": "해외판매 가속화",
+      "description": "글로벌 마켓플레이스 통합 관리로 해외 판매를 극대화하세요. Qoo10, Shopee, Amazon 등 주요 플랫폼을 한 번에 관리합니다."
+    },
+    "send4u": {
+      "name": "send4u.ai",
+      "title": "해외배송 최적화",
+      "description": "AI 기반 물류 최적화로 배송 비용을 절감하고 배송 시간을 단축합니다. 실시간 추적과 자동화된 배송 프로세스를 경험하세요."
+    },
+    "ohmyorder": {
+      "name": "ohmyorder.com",
+      "title": "해외주문 통합",
+      "description": "모든 채널의 주문을 하나로 통합 관리합니다. 재고 동기화, 주문 처리, 고객 관리를 효율적으로 운영하세요."
+    },
+    "market4u": {
+      "name": "market4u.ai",
+      "title": "AI 마케팅",
+      "description": "AI가 분석하는 글로벌 트렌드와 맞춤형 마케팅 전략으로 해외 시장을 공략하세요. 데이터 기반 의사결정을 지원합니다."
+    }
+  },
+  "stats": {
+    "title": "숫자로 보는 ecremmoce",
+    "clients": "글로벌 파트너사",
+    "countries": "진출 국가",
+    "orders": "월간 처리 주문",
+    "growth": "평균 매출 성장률"
+  },
+  "about": {
+    "title": "회사소개",
+    "subtitle": "이커머스를 뒤집어 새로운 가능성을 열다",
+    "story": {
+      "title": "ecremmoce의 탄생",
+      "content": "ecremmoce는 'ecommerce'를 거꾸로 뒤집은 신조어입니다. 우리는 정해진 순서와 방향에 얽매이지 않습니다. 직구와 역직구, 수출과 수입 — 모든 방향으로 자유롭게 움직이며 글로벌 커머스의 새로운 가능성을 열어갑니다.",
+      "highlight": "ecommerce → ecremmoce"
+    },
+    "vision": {
+      "title": "비전",
+      "content": "전 세계 모든 셀러가 국경과 방향의 제약 없이 자유롭게 거래할 수 있는 세상을 만듭니다."
+    },
+    "mission": {
+      "title": "미션",
+      "content": "기술과 데이터로 글로벌 이커머스의 복잡함을 해결하고, 양방향 무역의 기회를 모든 비즈니스에 제공합니다."
+    },
+    "values": {
+      "title": "핵심 가치",
+      "innovation": {
+        "title": "혁신",
+        "description": "끊임없는 기술 혁신으로 새로운 가치를 창출합니다"
+      },
+      "trust": {
+        "title": "신뢰",
+        "description": "파트너와의 신뢰를 최우선으로 생각합니다"
+      },
+      "global": {
+        "title": "글로벌",
+        "description": "세계를 무대로 경계 없는 비즈니스를 지향합니다"
+      },
+      "growth": {
+        "title": "성장",
+        "description": "파트너의 성장이 곧 우리의 성장입니다"
+      }
+    },
+    "history": {
+      "title": "연혁"
+    }
+  },
+  "news": {
+    "title": "뉴스룸",
+    "subtitle": "ecremmoce의 새로운 소식을 전합니다",
+    "categories": {
+      "all": "전체",
+      "press": "보도자료",
+      "partnership": "파트너십",
+      "award": "수상/인증"
+    },
+    "readMore": "자세히 보기",
+    "viewArticle": "기사 보기",
+    "noNews": "등록된 소식이 없습니다."
+  },
+  "contact": {
+    "title": "문의하기",
+    "subtitle": "궁금한 점이 있으시면 언제든 연락주세요",
+    "form": {
+      "name": "이름",
+      "email": "이메일",
+      "company": "회사명",
+      "phone": "연락처",
+      "subject": "문의 유형",
+      "message": "문의 내용",
+      "submit": "문의 보내기",
+      "subjects": {
+        "general": "일반 문의",
+        "partnership": "파트너십",
+        "support": "기술 지원",
+        "investment": "투자 문의"
+      }
+    },
+    "info": {
+      "title": "연락처 정보",
+      "address": "서울특별시 강서구 강서로 385, 8층 805-61호",
+      "email": "contact@ecremmoce.io",
+      "phone": "02-6925-4100"
+    },
+    "success": "문의가 성공적으로 전송되었습니다."
+  },
+  "footer": {
+    "description": "Freedom of CBEC Sellers. ecommerce를 뒤집어 새로운 가능성을 열어갑니다.",
+    "services": "서비스",
+    "company": "회사",
+    "legal": "법적 고지",
+    "privacy": "개인정보처리방침",
+    "terms": "이용약관",
+    "copyright": "© 2024 주식회사 이크레모스. All rights reserved.",
+    "companyInfo": {
+      "name": "주식회사 이크레모스",
+      "ceo": "대표: 정창원",
+      "address": "서울특별시 강서구 강서로 385, 8층 805-61호",
+      "bizNo": "사업자등록번호: 373-87-01553",
+      "phone": "고객센터: 02-6925-4100"
+    }
+  }
+}
+
+
+
+

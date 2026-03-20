@@ -1,0 +1,12 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- 박스 윗면 -->
+  <path d="M16 1L31 9V11L16 19L1 11V9L16 1Z" fill="#a3e635" />
+  <!-- 박스 앞면 -->
+  <path d="M1 11L16 19V31L1 23V11Z" fill="#84cc16" />
+  <!-- 박스 옆면 -->
+  <path d="M31 11L16 19V31L31 23V11Z" fill="#65a30d" />
+  <!-- 테이프 세로 -->
+  <path d="M16 1V19" stroke="#4d7c0f" stroke-width="2.5" />
+  <!-- 테이프 가로 -->
+  <path d="M8 5L24 13" stroke="#3f6212" stroke-width="1.5" />
+</svg>

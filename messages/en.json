@@ -1,0 +1,152 @@
+{
+  "common": {
+    "company": "ecremmoce",
+    "tagline": "E-commerce, Reversed",
+    "learnMore": "Learn More",
+    "contactUs": "Contact Us",
+    "getStarted": "Get Started",
+    "viewAll": "View All"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "newsroom": "Newsroom",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "All-in-One\nE-commerce Suite",
+    "subtitle": "Sell · Ship · Manage · Grow\nEverything you need for global e-commerce in one platform.",
+    "cta": "Explore Suite",
+    "badge": "E-commerce, Reversed"
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "Connecting everything in global e-commerce",
+    "acsell": {
+      "name": "acsell.ai",
+      "title": "Sales Acceleration",
+      "description": "Maximize overseas sales with integrated global marketplace management. Manage major platforms like Qoo10, Shopee, and Amazon all at once."
+    },
+    "send4u": {
+      "name": "send4u.ai",
+      "title": "Shipping Optimization",
+      "description": "Reduce shipping costs and delivery times with AI-powered logistics optimization. Experience real-time tracking and automated shipping processes."
+    },
+    "ohmyorder": {
+      "name": "ohmyorder.com",
+      "title": "Order Integration",
+      "description": "Manage orders from all channels in one place. Efficiently handle inventory sync, order processing, and customer management."
+    },
+    "market4u": {
+      "name": "market4u.ai",
+      "title": "AI Marketing",
+      "description": "Conquer overseas markets with AI-analyzed global trends and customized marketing strategies. We support data-driven decision making."
+    }
+  },
+  "stats": {
+    "title": "ecremmoce by Numbers",
+    "clients": "Global Partners",
+    "countries": "Countries",
+    "orders": "Monthly Orders",
+    "growth": "Avg. Revenue Growth"
+  },
+  "about": {
+    "title": "About Us",
+    "subtitle": "Reversing e-commerce to unlock new possibilities",
+    "story": {
+      "title": "The Birth of ecremmoce",
+      "content": "ecremmoce is 'ecommerce' spelled backwards — a neologism that represents our philosophy. We don't follow predetermined paths. Import or export, inbound or outbound — we move freely in all directions, opening new possibilities in global commerce.",
+      "highlight": "ecommerce → ecremmoce"
+    },
+    "vision": {
+      "title": "Vision",
+      "content": "Creating a world where every seller can trade freely, unconstrained by borders or directions."
+    },
+    "mission": {
+      "title": "Mission",
+      "content": "Solving the complexity of global e-commerce with technology and data, providing bidirectional trade opportunities for all businesses."
+    },
+    "values": {
+      "title": "Core Values",
+      "innovation": {
+        "title": "Innovation",
+        "description": "Creating new value through continuous technological innovation"
+      },
+      "trust": {
+        "title": "Trust",
+        "description": "Prioritizing trust with our partners above all else"
+      },
+      "global": {
+        "title": "Global",
+        "description": "Pursuing borderless business on the world stage"
+      },
+      "growth": {
+        "title": "Growth",
+        "description": "Our partners' growth is our growth"
+      }
+    },
+    "history": {
+      "title": "History"
+    }
+  },
+  "news": {
+    "title": "Newsroom",
+    "subtitle": "Latest updates from ecremmoce",
+    "categories": {
+      "all": "All",
+      "press": "Press",
+      "partnership": "Partnership",
+      "award": "Awards"
+    },
+    "readMore": "Read More",
+    "viewArticle": "View Article",
+    "noNews": "No news available."
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "Feel free to reach out with any questions",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "company": "Company",
+      "phone": "Phone",
+      "subject": "Subject",
+      "message": "Message",
+      "submit": "Send Message",
+      "subjects": {
+        "general": "General Inquiry",
+        "partnership": "Partnership",
+        "support": "Technical Support",
+        "investment": "Investment"
+      }
+    },
+    "info": {
+      "title": "Contact Information",
+      "address": "385 Gangseo-ro, Gangseo-gu, Seoul, Korea (8F, 805-61)",
+      "email": "contact@ecremmoce.io",
+      "phone": "+82-2-6925-4100"
+    },
+    "success": "Your message has been sent successfully."
+  },
+  "footer": {
+    "description": "Freedom of CBEC Sellers. E-commerce reversed, possibilities unlocked.",
+    "services": "Services",
+    "company": "Company",
+    "legal": "Legal",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "copyright": "© 2024 ecremmoce Corp. All rights reserved.",
+    "companyInfo": {
+      "name": "ecremmoce Corp.",
+      "ceo": "CEO: Chang-won Jung",
+      "address": "385 Gangseo-ro, Gangseo-gu, Seoul, Korea (8F, 805-61)",
+      "bizNo": "Business Registration: 373-87-01553",
+      "phone": "Customer Service: +82-2-6925-4100"
+    }
+  }
+}
+
+
+
+
