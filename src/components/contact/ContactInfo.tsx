@@ -12,8 +12,8 @@ const contactMethods = [
       </svg>
     ),
     label: 'address',
-    value: '서울특별시 강서구 강서로 385, 8층 805-61호',
-    href: 'https://map.naver.com/p/search/%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C%20%EA%B0%95%EC%84%9C%EA%B5%AC%20%EA%B0%95%EC%84%9C%EB%A1%9C%20385',
+    value: '경기도 용인시 기흥구 죽전로10 658호',
+    href: 'https://map.naver.com/p/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%9A%A9%EC%9D%B8%EC%8B%9C%20%EA%B8%B0%ED%9D%A5%EA%B5%AC%20%EC%A3%BD%EC%A0%84%EB%A1%9C10',
   },
   {
     icon: (
@@ -74,7 +74,7 @@ export default function ContactInfo() {
       <div className="glass-card overflow-hidden">
         <div className="aspect-video bg-[#0a0a0f] relative">
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3164.5!2d126.8491!3d37.5595!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357c9e3a0a0a0a0a%3A0x0!2z7ISc7Jq47Yq567OE7IucIOqwlOyEnOq1rCDqsJXshJzroZwgMzg1!5e0!3m2!1sko!2skr!4v1"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3174.5!2d127.1050!3d37.3250!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357b5a0a0a0a0a0a%3A0x0!2z6rK96riw64-EIOyaqeyduOyLnCDquLDtnaXqtawg7KO97KCE66GcMTA!5e0!3m2!1sko!2skr!4v1"
             width="100%"
             height="100%"
             style={{ border: 0 }}
@@ -86,7 +86,7 @@ export default function ContactInfo() {
           {/* Location label overlay */}
           <div className="absolute bottom-4 left-4 px-4 py-2 rounded-lg bg-black/70 backdrop-blur-sm z-10">
             <p className="text-sm text-white font-medium">주식회사 에이아이글로벌</p>
-            <p className="text-xs text-gray-400">서울특별시 강서구 강서로 385</p>
+            <p className="text-xs text-gray-400">경기도 용인시 기흥구 죽전로10 658호</p>
           </div>
         </div>
       </div>
