@@ -1,7 +1,7 @@
 {
   "common": {
-    "company": "ecremmoce",
-    "tagline": "颠覆电商",
+    "company": "AI Global",
+    "tagline": "AI连接全球电商",
     "learnMore": "了解更多",
     "contactUs": "联系我们",
     "getStarted": "开始使用",
@@ -19,7 +19,7 @@
     "title": "All-in-One\n电商套件",
     "subtitle": "销售 · 物流 · 管理 · 增长\n一个平台解决全球电商的一切需求。",
     "cta": "探索套件",
-    "badge": "颠覆电商"
+    "badge": "AI连接全球电商"
   },
   "services": {
     "title": "我们的服务",
@@ -54,11 +54,11 @@
   },
   "about": {
     "title": "关于我们",
-    "subtitle": "颠覆电商，开启新可能",
+    "subtitle": "AI连接全球电商，开启新可能",
     "story": {
-      "title": "ecremmoce的诞生",
-      "content": "ecremmoce是将'ecommerce'倒写的新词。我们不受既定顺序和方向的束缚。直购与反向直购、出口与进口——我们自由地向各个方向移动，开启全球商务的新可能。",
-      "highlight": "ecommerce → ecremmoce"
+      "title": "AI Global的故事",
+      "content": "AI Global是一家通过AI技术连接全球电商的科技公司。我们不受既定顺序和方向的束缚。直购与反向直购、出口与进口——我们自由地向各个方向移动，开启全球商务的新可能。",
+      "highlight": "AI + Global Commerce"
     },
     "vision": {
       "title": "愿景",
@@ -96,7 +96,7 @@
     "subtitle": "投资者信息",
     "overview": {
       "title": "公司概况",
-      "description": "ecremmoce是一家提供全球电商解决方案的科技公司。"
+      "description": "AI Global是一家提供全球电商解决方案的科技公司。"
     },
     "financials": {
       "title": "财务信息",
@@ -110,7 +110,7 @@
   },
   "news": {
     "title": "新闻",
-    "subtitle": "ecremmoce最新动态",
+    "subtitle": "AI Global最新动态",
     "categories": {
       "all": "全部",
       "notice": "公告",
@@ -141,21 +141,21 @@
     "info": {
       "title": "联系方式",
       "address": "首尔市瑞草区东山路8街41号，成铉大厦2-4层",
-      "email": "contact@ecremmoce.io",
+      "email": "contact@aiglobal.kr",
       "phone": "+82-2-6925-4100"
     },
     "success": "您的消息已成功发送。"
   },
   "footer": {
-    "description": "Freedom of CBEC Sellers. 颠覆电商，开启新可能。",
+    "description": "Freedom of CBEC Sellers. AI连接全球电商，开启新可能。",
     "services": "服务",
     "company": "公司",
     "legal": "法律声明",
     "privacy": "隐私政策",
     "terms": "服务条款",
-    "copyright": "© 2024 ecremmoce株式会社. 保留所有权利。",
+    "copyright": "© 2024 AI Global株式会社. 保留所有权利。",
     "companyInfo": {
-      "name": "ecremmoce株式会社",
+      "name": "AI Global株式会社",
       "ceo": "代表: 郑昌元",
       "address": "首尔市瑞草区东山路8街41号，成铉大厦2-4层",
       "bizNo": "营业执照号: 373-87-01553",

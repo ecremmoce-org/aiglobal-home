@@ -83,7 +83,7 @@ export default function SuiteShowcase() {
             <div className="absolute inset-4 rounded-full bg-gradient-to-br from-indigo-600 to-purple-600 flex items-center justify-center shadow-2xl shadow-indigo-500/30">
               <div className="text-center">
                 <div className="text-xl lg:text-3xl font-bold font-heading text-white">
-                  ecremmoce
+                  AI Global
                 </div>
                 <div className="text-xs lg:text-sm text-white/70 mt-1">
                   Suite
@@ -176,7 +176,7 @@ export default function SuiteShowcase() {
           >
             <div className="text-center">
               <div className="text-lg font-bold font-heading text-white">
-                ecremmoce
+                AI Global
               </div>
               <div className="text-xs text-white/70">Suite</div>
             </div>

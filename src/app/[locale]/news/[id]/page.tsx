@@ -6,7 +6,7 @@ import Footer from '@/components/layout/Footer';
 import NewsDetail from '@/components/news/NewsDetail';
 import { pressReleases } from '@/data/pressReleases';
 
-const baseUrl = 'https://www.ecremmoce.io';
+const baseUrl = 'https://www.aiglobal.kr';
 const locales = ['ko', 'en', 'ja', 'zh'];
 
 // 정적 생성을 위한 params 생성
@@ -36,7 +36,7 @@ export async function generateMetadata({
     title: news.title,
     description: news.excerpt,
     openGraph: {
-      title: `${news.title} | ecremmoce`,
+      title: `${news.title} | AI Global`,
       description: news.excerpt,
       url: `${baseUrl}/${locale}${pagePath}`,
       type: 'article',

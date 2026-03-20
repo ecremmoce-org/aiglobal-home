@@ -22,8 +22,8 @@ const contactMethods = [
       </svg>
     ),
     label: 'email',
-    value: 'contact@ecremmoce.io',
-    href: 'mailto:contact@ecremmoce.io',
+    value: 'contact@aiglobal.kr',
+    href: 'mailto:contact@aiglobal.kr',
   },
 ];
 
@@ -85,7 +85,7 @@ export default function ContactInfo() {
           />
           {/* Location label overlay */}
           <div className="absolute bottom-4 left-4 px-4 py-2 rounded-lg bg-black/70 backdrop-blur-sm z-10">
-            <p className="text-sm text-white font-medium">주식회사 이크레모스</p>
+            <p className="text-sm text-white font-medium">주식회사 에이아이글로벌</p>
             <p className="text-xs text-gray-400">서울특별시 강서구 강서로 385</p>
           </div>
         </div>

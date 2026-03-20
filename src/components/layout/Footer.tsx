@@ -33,7 +33,7 @@ export default function Footer() {
           <div className="lg:col-span-1">
             <Link href="/" className="inline-block mb-4">
               <span className="text-3xl font-bold font-heading gradient-text">
-                ecremmoce
+                AI Global
               </span>
             </Link>
             <p className="text-gray-400 text-base leading-relaxed mb-4">

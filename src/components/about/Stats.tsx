@@ -119,7 +119,7 @@ export default function Stats() {
             Our Achievements
           </span>
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-6">
-            이크레모스가 일궈온{' '}
+            에이아이글로벌이 일궈온{' '}
             <span className="gradient-text">CBEC World</span>
           </h2>
           <p className="text-gray-400 text-lg max-w-2xl mx-auto">

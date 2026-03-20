@@ -1,10 +1,10 @@
-# ECREMMOCE Home - AI Agent Context
+# AI Global Home - AI Agent Context
 
 > 회사 홈페이지 (다국어 지원)
 
 ## Project Context
 
-**Business Goal**: ECREMMOCE 기업 소개 및 서비스 안내 웹사이트
+**Business Goal**: AI Global 기업 소개 및 서비스 안내 웹사이트
 
 **Core Functions**:
 - 다국어 지원 (한국어, 영어, 일본어, 중국어)
@@ -121,7 +121,7 @@ export default function Component() {
 // messages/ko.json
 {
   "home": {
-    "title": "ECREMMOCE에 오신 것을 환영합니다",
+    "title": "AI Global에 오신 것을 환영합니다",
     "description": "글로벌 이커머스 솔루션"
   }
 }
@@ -144,7 +144,7 @@ NEXT_PUBLIC_SUPABASE_ANON_KEY
 export default function robots(): MetadataRoute.Robots {
   return {
     rules: { userAgent: '*', allow: '/' },
-    sitemap: 'https://ecremmoce.com/sitemap.xml',
+    sitemap: 'https://aiglobal.kr/sitemap.xml',
   };
 }
 ```

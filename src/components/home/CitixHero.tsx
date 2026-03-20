@@ -587,40 +587,34 @@ function CitixHero() {
 }
 
 
-// 설명 섹션 컴포넌트 - 자동 재생 애니메이션 + ecremmoce → ecommerce 분열 트랜지션
+// 설명 섹션 컴포넌트 - 자동 재생 애니메이션 (AI Global 브랜드 표시)
 function DescriptionSection() {
   const sectionRef = useRef<HTMLDivElement>(null);
   const [isInView, setIsInView] = useState(false);
   const [phase, setPhase] = useState<'highlight' | 'fadeOut' | 'transform' | 'complete'>('highlight');
   const [currentLine, setCurrentLine] = useState(-1);
-  const [splitStep, setSplitStep] = useState(0); // 분열 단계 (0-8)
 
   // 애니메이션 상태 초기화 함수
   const resetAnimation = () => {
     setPhase('highlight');
     setCurrentLine(-1);
-    setSplitStep(0);
   };
 
   // IntersectionObserver로 섹션이 뷰포트에 들어왔는지 감지
-  // 모바일에서도 작동하도록 threshold를 낮추고, 진입/이탈 시 애니메이션 리셋
   useEffect(() => {
     const observer = new IntersectionObserver(
       ([entry]) => {
         if (entry.isIntersecting) {
-          // 섹션에 진입하면 애니메이션 초기화 후 시작
           resetAnimation();
-          // 약간의 지연 후 애니메이션 시작 (스크롤 안정화 대기)
           setTimeout(() => {
             setIsInView(true);
           }, 300);
         } else {
-          // 섹션을 벗어나면 애니메이션 정지 및 초기화
           setIsInView(false);
           resetAnimation();
         }
       },
-      { threshold: 0.5 } // 50% 이상 보이면 트리거 (모바일 호환성)
+      { threshold: 0.5 }
     );
 
     if (sectionRef.current) {
@@ -642,7 +636,6 @@ function DescriptionSection() {
         }, currentLine === -1 ? 300 : 600);
         return () => clearTimeout(timer);
       } else {
-        // 모든 줄 하이라이트 완료 후 페이드아웃 단계로
         const timer = setTimeout(() => {
           setPhase('fadeOut');
         }, 800);
@@ -658,32 +651,17 @@ function DescriptionSection() {
       return () => clearTimeout(timer);
     }
 
-    // 3단계: ecremmoce → ecommerce 분열 애니메이션
+    // 3단계: AI Global 브랜드 표시
     if (phase === 'transform') {
-      if (splitStep < 8) {
-        // 0-7 단계: 다음 단계로 진행
-        const timer = setTimeout(() => {
-          setSplitStep(prev => prev + 1);
-        }, 400);
-        return () => clearTimeout(timer);
-      } else if (splitStep === 8) {
-        // 8 단계: 마지막 글자들이 나타난 후 잠시 대기
-        const timer = setTimeout(() => {
-          setSplitStep(9); // 9로 설정하여 모든 글자 표시 확인
-        }, 600);
-        return () => clearTimeout(timer);
-      } else {
-        // splitStep >= 9: 변환 완료
-        const timer = setTimeout(() => {
-          setPhase('complete');
-        }, 800);
-        return () => clearTimeout(timer);
-      }
+      const timer = setTimeout(() => {
+        setPhase('complete');
+      }, 1200);
+      return () => clearTimeout(timer);
     }
-  }, [isInView, phase, currentLine, splitStep]);
+  }, [isInView, phase, currentLine]);
 
   const lines = [
-    { text: 'ecremmoce =', size: 'text-2xl md:text-4xl lg:text-5xl' },
+    { text: 'AI Global', size: 'text-2xl md:text-4xl lg:text-5xl' },
     { text: 'AI 기반 통합 이커머스 솔루션', size: 'text-2xl md:text-4xl lg:text-5xl' },
     { text: '판매부터 배송, 관리, 성장까지', size: 'text-2xl md:text-4xl lg:text-5xl' },
     { text: '글로벌 셀러의 모든 여정을 지원합니다.', size: 'text-xl md:text-3xl lg:text-4xl' },
@@ -723,52 +701,6 @@ function DescriptionSection() {
       label: 'GROW' 
     },
   ];
-
-  // ecremmoce → ecommerce 변환 (글자 분열 + 아래줄 재배치 애니메이션)
-  // 위쪽 줄: ecremmoce (원본)
-  // 아래쪽 줄: ecommerce (재배치 결과)
-  // 
-  // 분열 과정: 뒤에서부터 글자가 분열되어 아래줄에 올바른 위치로 나타남
-  // ecremmoce의 각 글자가 ecommerce의 어느 위치로 가는지:
-  // e(0)→e(0), c(1)→c(1), r(2)→r(6), e(3)→e(5), m(4)→m(3), m(5)→m(4), o(6)→o(2), c(7)→c(7), e(8)→e(8)
-  
-  // 위쪽 줄 (ecremmoce) 데이터
-  const topRowLetters = ['e', 'c', 'r', 'e', 'm', 'm', 'o', 'c', 'e'];
-  
-  // 아래쪽 줄 (ecommerce) 데이터 - 각 글자가 언제 나타나는지 (splitStep)
-  // ecommerce: e(0) c(1) o(2) m(3) m(4) e(5) r(6) c(7) e(8)
-  // 뒤에서부터 분열되므로: e(8)→step0, c(7)→step1, o(6)→step2, m(5)→step3, m(4)→step4, e(3)→step5, r(2)→step6, c(1)→step7, e(0)→step8
-  // ecommerce 순서로 나타나는 step (0-8 범위로 조정):
-  const bottomRowData = [
-    { char: 'e', appearStep: 8 },  // e(0) - ecremmoce의 0번 위치, 뒤에서 9번째 → step 8
-    { char: 'c', appearStep: 7 },  // c(1) - ecremmoce의 1번 위치, 뒤에서 8번째 → step 7
-    { char: 'o', appearStep: 2 },  // o(2) - ecremmoce의 6번 위치, 뒤에서 3번째 → step 2
-    { char: 'm', appearStep: 4 },  // m(3) - ecremmoce의 4번 위치, 뒤에서 5번째 → step 4
-    { char: 'm', appearStep: 3 },  // m(4) - ecremmoce의 5번 위치, 뒤에서 4번째 → step 3
-    { char: 'e', appearStep: 5 },  // e(5) - ecremmoce의 3번 위치, 뒤에서 6번째 → step 5
-    { char: 'r', appearStep: 6 },  // r(6) - ecremmoce의 2번 위치, 뒤에서 7번째 → step 6
-    { char: 'c', appearStep: 1 },  // c(7) - ecremmoce의 7번 위치, 뒤에서 2번째 → step 1
-    { char: 'e', appearStep: 0 },  // e(8) - ecremmoce의 8번 위치, 뒤에서 1번째 → step 0
-  ];
-
-  // 위쪽 줄에서 해당 글자가 분열되었는지 확인
-  const isTopLetterSplit = (index: number) => {
-    if (phase === 'complete') return true;
-    if (phase !== 'transform') return false;
-    // 뒤에서부터 활성화 (index 8 → 7 → 6 → ... → 0)
-    // splitStep 0일 때 index 8 분열, splitStep 1일 때 index 7 분열, ...
-    const reverseIndex = 8 - index;
-    return splitStep >= reverseIndex;
-  };
-
-  // 아래쪽 줄에서 해당 글자가 나타났는지 확인
-  const isBottomLetterVisible = (index: number) => {
-    if (phase === 'complete') return true;
-    if (phase !== 'transform') return false;
-    // splitStep이 해당 글자의 appearStep 이상이면 표시
-    const appear = bottomRowData[index].appearStep;
-    return splitStep >= appear;
-  };
 
   const showTransform = phase === 'transform' || phase === 'complete';
 
@@ -837,7 +769,7 @@ function DescriptionSection() {
         </div>
       </motion.div>
 
-      {/* ecremmoce → ecommerce 분열 애니메이션 */}
+      {/* AI Global 브랜드 표시 */}
       <motion.div
         className="absolute inset-0 flex flex-col items-center justify-center z-20"
         animate={{
@@ -846,75 +778,24 @@ function DescriptionSection() {
         transition={{ duration: 0.5 }}
         style={{ pointerEvents: showTransform ? 'auto' : 'none' }}
       >
-        {/* 분열 애니메이션 - 위쪽 줄 (원본 ecremmoce) + 아래쪽 줄 (재배치된 ecommerce) */}
         <div className="flex flex-col items-center gap-6 md:gap-8">
-          {/* 위쪽 줄: ecremmoce (분열되면 연한색으로) */}
-          <div className="flex items-center justify-center gap-1 md:gap-2">
-            {topRowLetters.map((char, index) => {
-              const isSplit = isTopLetterSplit(index);
-              const reverseIndex = 8 - index;
-              const isCurrentlySplitting = phase === 'transform' && splitStep === reverseIndex;
-              
-              return (
-                <motion.span
-                  key={`top-${index}`}
-                  className="text-4xl md:text-6xl lg:text-7xl font-bold font-heading inline-block text-center tracking-tight"
-                  animate={{
-                    opacity: isSplit ? 0.3 : 1,
-                    color: isCurrentlySplitting ? '#7c3aed' : (isSplit ? '#d8b4fe' : '#581c87'),
-                    scale: isCurrentlySplitting ? 1.1 : 1,
-                    y: isCurrentlySplitting ? -5 : 0,
-                  }}
-                  transition={{ duration: 0.3 }}
-                >
-                  {char}
-                </motion.span>
-              );
-            })}
-          </div>
-          
-          {/* 화살표 구분선 */}
+          {/* AI Global 브랜드명 */}
           <motion.div
-            className="flex items-center justify-center text-purple-400"
+            className="text-5xl md:text-7xl lg:text-8xl font-bold font-heading text-center tracking-tight"
+            initial={{ opacity: 0, scale: 0.8 }}
             animate={{
-              opacity: splitStep >= 0 ? 1 : 0,
+              opacity: showTransform ? 1 : 0,
+              scale: showTransform ? 1 : 0.8,
+              color: '#581c87',
             }}
-            transition={{ duration: 0.3 }}
+            transition={{ duration: 0.6, ease: 'easeOut' }}
           >
-            <span className="text-2xl md:text-3xl">↓</span>
+            AI Global
           </motion.div>
-          
-          {/* 아래쪽 줄: ecommerce (분열된 글자들이 순서대로 나타남) */}
-          <div className="flex items-center justify-center gap-1 md:gap-2 lg:gap-3">
-            {bottomRowData.map((data, index) => {
-              const isVisible = isBottomLetterVisible(index);
-              const isCurrentlyAppearing = phase === 'transform' && splitStep === data.appearStep;
-              
-              return (
-                <motion.span
-                  key={`bottom-${index}`}
-                  className="text-5xl md:text-7xl lg:text-8xl font-bold font-heading inline-block text-center tracking-tight"
-                  initial={{ opacity: 0, y: -20, scale: 0.8 }}
-                  animate={{
-                    opacity: isVisible ? 1 : 0,
-                    y: isVisible ? 0 : -20,
-                    scale: isCurrentlyAppearing ? 1.2 : (isVisible ? 1 : 0.8),
-                    color: isCurrentlyAppearing ? '#7c3aed' : '#581c87',
-                  }}
-                  transition={{ 
-                    duration: 0.4,
-                    ease: 'easeOut',
-                  }}
-                >
-                  {data.char}
-                </motion.span>
-              );
-            })}
-          </div>
         </div>
-        
+
         {/* 설명 텍스트 */}
-        <motion.p 
+        <motion.p
           className="mt-8 md:mt-12 text-sm md:text-base text-purple-900/60 font-medium tracking-widest"
           animate={{
             opacity: phase === 'complete' ? 1 : 0,
@@ -922,7 +803,7 @@ function DescriptionSection() {
           }}
           transition={{ duration: 0.5 }}
         >
-          ecommerce를 뒤집어 새로운 가능성을 열다
+          AI로 글로벌 이커머스의 새로운 가능성을 열다
         </motion.p>
       </motion.div>
 
@@ -933,15 +814,15 @@ function DescriptionSection() {
             key={i}
             className="w-2 h-2 rounded-full"
             animate={{
-              backgroundColor: 
-                (i < 4 && currentLine >= i) || 
+              backgroundColor:
+                (i < 4 && currentLine >= i) ||
                 (i === 4 && (phase === 'transform' || phase === 'complete'))
-                  ? '#7c3aed' 
+                  ? '#7c3aed'
                   : '#d1d5db',
-              scale: 
-                (i < 4 && currentLine === i) || 
+              scale:
+                (i < 4 && currentLine === i) ||
                 (i === 4 && phase === 'transform')
-                  ? 1.5 
+                  ? 1.5
                   : 1,
             }}
             transition={{ duration: 0.3 }}

@@ -1,7 +1,7 @@
 {
   "common": {
-    "company": "ecremmoce",
-    "tagline": "이커머스를 뒤집다",
+    "company": "AI Global",
+    "tagline": "AI로 연결하는 글로벌 이커머스",
     "learnMore": "자세히 보기",
     "contactUs": "문의하기",
     "getStarted": "시작하기",
@@ -18,7 +18,7 @@
     "title": "All-in-One\nE-commerce Suite",
     "subtitle": "판매 · 배송 · 관리 · 성장\n하나의 플랫폼에서 글로벌 이커머스의 모든 것을 해결합니다.",
     "cta": "Suite 살펴보기",
-    "badge": "ecommerce를 뒤집다"
+    "badge": "AI로 연결하는 글로벌 이커머스"
   },
   "services": {
     "title": "우리의 서비스",
@@ -45,7 +45,7 @@
     }
   },
   "stats": {
-    "title": "숫자로 보는 ecremmoce",
+    "title": "숫자로 보는 AI Global",
     "clients": "글로벌 파트너사",
     "countries": "진출 국가",
     "orders": "월간 처리 주문",
@@ -53,11 +53,11 @@
   },
   "about": {
     "title": "회사소개",
-    "subtitle": "이커머스를 뒤집어 새로운 가능성을 열다",
+    "subtitle": "AI로 글로벌 이커머스의 새로운 가능성을 열다",
     "story": {
-      "title": "ecremmoce의 탄생",
-      "content": "ecremmoce는 'ecommerce'를 거꾸로 뒤집은 신조어입니다. 우리는 정해진 순서와 방향에 얽매이지 않습니다. 직구와 역직구, 수출과 수입 — 모든 방향으로 자유롭게 움직이며 글로벌 커머스의 새로운 가능성을 열어갑니다.",
-      "highlight": "ecommerce → ecremmoce"
+      "title": "AI Global의 이야기",
+      "content": "AI Global은 AI 기술로 글로벌 이커머스를 연결하는 기술 기업입니다. 우리는 정해진 순서와 방향에 얽매이지 않습니다. 직구와 역직구, 수출과 수입 — 모든 방향으로 자유롭게 움직이며 글로벌 커머스의 새로운 가능성을 열어갑니다.",
+      "highlight": "AI + Global Commerce"
     },
     "vision": {
       "title": "비전",
@@ -92,7 +92,7 @@
   },
   "news": {
     "title": "뉴스룸",
-    "subtitle": "ecremmoce의 새로운 소식을 전합니다",
+    "subtitle": "AI Global의 새로운 소식을 전합니다",
     "categories": {
       "all": "전체",
       "press": "보도자료",
@@ -124,21 +124,21 @@
     "info": {
       "title": "연락처 정보",
       "address": "서울특별시 강서구 강서로 385, 8층 805-61호",
-      "email": "contact@ecremmoce.io",
+      "email": "contact@aiglobal.kr",
       "phone": "02-6925-4100"
     },
     "success": "문의가 성공적으로 전송되었습니다."
   },
   "footer": {
-    "description": "Freedom of CBEC Sellers. ecommerce를 뒤집어 새로운 가능성을 열어갑니다.",
+    "description": "Freedom of CBEC Sellers. AI로 글로벌 이커머스의 새로운 가능성을 열어갑니다.",
     "services": "서비스",
     "company": "회사",
     "legal": "법적 고지",
     "privacy": "개인정보처리방침",
     "terms": "이용약관",
-    "copyright": "© 2024 주식회사 이크레모스. All rights reserved.",
+    "copyright": "© 2024 주식회사 에이아이글로벌. All rights reserved.",
     "companyInfo": {
-      "name": "주식회사 이크레모스",
+      "name": "주식회사 에이아이글로벌",
       "ceo": "대표: 정창원",
       "address": "서울특별시 강서구 강서로 385, 8층 805-61호",
       "bizNo": "사업자등록번호: 373-87-01553",

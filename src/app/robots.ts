@@ -1,7 +1,7 @@
 import { MetadataRoute } from 'next';
 
 export default function robots(): MetadataRoute.Robots {
-  const baseUrl = 'https://www.ecremmoce.io';
+  const baseUrl = 'https://www.aiglobal.kr';
 
   return {
     rules: [

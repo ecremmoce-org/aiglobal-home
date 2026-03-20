@@ -1,7 +1,7 @@
 {
   "common": {
-    "company": "ecremmoce",
-    "tagline": "E-commerce, Reversed",
+    "company": "AI Global",
+    "tagline": "Global E-commerce, Connected by AI",
     "learnMore": "Learn More",
     "contactUs": "Contact Us",
     "getStarted": "Get Started",
@@ -18,7 +18,7 @@
     "title": "All-in-One\nE-commerce Suite",
     "subtitle": "Sell · Ship · Manage · Grow\nEverything you need for global e-commerce in one platform.",
     "cta": "Explore Suite",
-    "badge": "E-commerce, Reversed"
+    "badge": "Global E-commerce, Connected by AI"
   },
   "services": {
     "title": "Our Services",
@@ -45,7 +45,7 @@
     }
   },
   "stats": {
-    "title": "ecremmoce by Numbers",
+    "title": "AI Global by Numbers",
     "clients": "Global Partners",
     "countries": "Countries",
     "orders": "Monthly Orders",
@@ -55,9 +55,9 @@
     "title": "About Us",
     "subtitle": "Reversing e-commerce to unlock new possibilities",
     "story": {
-      "title": "The Birth of ecremmoce",
-      "content": "ecremmoce is 'ecommerce' spelled backwards — a neologism that represents our philosophy. We don't follow predetermined paths. Import or export, inbound or outbound — we move freely in all directions, opening new possibilities in global commerce.",
-      "highlight": "ecommerce → ecremmoce"
+      "title": "The Story of AI Global",
+      "content": "AI Global is a technology company that connects the world through AI-powered e-commerce solutions. We don't follow predetermined paths. Import or export, inbound or outbound — we move freely in all directions, opening new possibilities in global commerce.",
+      "highlight": "AI + Global Commerce"
     },
     "vision": {
       "title": "Vision",
@@ -92,7 +92,7 @@
   },
   "news": {
     "title": "Newsroom",
-    "subtitle": "Latest updates from ecremmoce",
+    "subtitle": "Latest updates from AI Global",
     "categories": {
       "all": "All",
       "press": "Press",
@@ -124,21 +124,21 @@
     "info": {
       "title": "Contact Information",
       "address": "385 Gangseo-ro, Gangseo-gu, Seoul, Korea (8F, 805-61)",
-      "email": "contact@ecremmoce.io",
+      "email": "contact@aiglobal.kr",
       "phone": "+82-2-6925-4100"
     },
     "success": "Your message has been sent successfully."
   },
   "footer": {
-    "description": "Freedom of CBEC Sellers. E-commerce reversed, possibilities unlocked.",
+    "description": "Freedom of CBEC Sellers. Global e-commerce, connected by AI.",
     "services": "Services",
     "company": "Company",
     "legal": "Legal",
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
-    "copyright": "© 2024 ecremmoce Corp. All rights reserved.",
+    "copyright": "© 2024 AI Global Corp. All rights reserved.",
     "companyInfo": {
-      "name": "ecremmoce Corp.",
+      "name": "AI Global Corp.",
       "ceo": "CEO: Chang-won Jung",
       "address": "385 Gangseo-ro, Gangseo-gu, Seoul, Korea (8F, 805-61)",
       "bizNo": "Business Registration: 373-87-01553",

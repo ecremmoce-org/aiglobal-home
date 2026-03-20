@@ -59,7 +59,7 @@ export default function CTA() {
         >
           AI가 연결하는 글로벌 이커머스 솔루션,
           <br className="hidden sm:block" />
-          지금 ecremmoce와 함께 시작하세요.
+          지금 AI Global과 함께 시작하세요.
         </motion.p>
 
         {/* CTA 버튼 */}
@@ -78,10 +78,10 @@ export default function CTA() {
           </Link>
           
           <a
-            href="mailto:contact@ecremmoce.io"
+            href="mailto:contact@aiglobal.kr"
             className="flex items-center gap-2 px-6 py-3.5 text-gray-400 hover:text-white transition-colors text-sm"
           >
-            <span>contact@ecremmoce.io</span>
+            <span>contact@aiglobal.kr</span>
             <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
             </svg>

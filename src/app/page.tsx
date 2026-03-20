@@ -5,13 +5,13 @@ import type { Metadata } from 'next';
 // 루트 페이지 메타데이터 - canonical을 기본 언어로 설정
 export const metadata: Metadata = {
   alternates: {
-    canonical: 'https://www.ecremmoce.io/ko',
+    canonical: 'https://www.aiglobal.kr/ko',
     languages: {
-      'ko': 'https://www.ecremmoce.io/ko',
-      'en': 'https://www.ecremmoce.io/en',
-      'ja': 'https://www.ecremmoce.io/ja',
-      'zh': 'https://www.ecremmoce.io/zh',
-      'x-default': 'https://www.ecremmoce.io/ko',
+      'ko': 'https://www.aiglobal.kr/ko',
+      'en': 'https://www.aiglobal.kr/en',
+      'ja': 'https://www.aiglobal.kr/ja',
+      'zh': 'https://www.aiglobal.kr/zh',
+      'x-default': 'https://www.aiglobal.kr/ko',
     },
   },
 };

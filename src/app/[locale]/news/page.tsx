@@ -5,34 +5,34 @@ import Footer from '@/components/layout/Footer';
 import NewsHero from '@/components/news/NewsHero';
 import NewsList from '@/components/news/NewsList';
 
-const baseUrl = 'https://www.ecremmoce.io';
+const baseUrl = 'https://www.aiglobal.kr';
 const locales = ['ko', 'en', 'ja', 'zh'];
 const pagePath = '/news';
 
 const localeMetadata: Record<string, { title: string; description: string; ogTitle: string; ogDescription: string }> = {
   ko: {
     title: '뉴스룸',
-    description: 'ecremmoce의 최신 소식, 보도자료, 파트너십, 수상 및 인증 소식을 확인하세요.',
-    ogTitle: '뉴스룸 | ecremmoce',
-    ogDescription: 'ecremmoce의 최신 소식, 보도자료, 파트너십, 수상 및 인증 소식',
+    description: 'AI Global의 최신 소식, 보도자료, 파트너십, 수상 및 인증 소식을 확인하세요.',
+    ogTitle: '뉴스룸 | AI Global',
+    ogDescription: 'AI Global의 최신 소식, 보도자료, 파트너십, 수상 및 인증 소식',
   },
   en: {
     title: 'Newsroom',
-    description: 'Check out the latest news, press releases, partnerships, awards and certifications from ecremmoce.',
-    ogTitle: 'Newsroom | ecremmoce',
-    ogDescription: 'Latest news, press releases, partnerships, awards and certifications from ecremmoce',
+    description: 'Check out the latest news, press releases, partnerships, awards and certifications from AI Global.',
+    ogTitle: 'Newsroom | AI Global',
+    ogDescription: 'Latest news, press releases, partnerships, awards and certifications from AI Global',
   },
   ja: {
     title: 'ニュースルーム',
-    description: 'ecremmoceの最新ニュース、プレスリリース、パートナーシップ、受賞・認証情報をご確認ください。',
-    ogTitle: 'ニュースルーム | ecremmoce',
-    ogDescription: 'ecremmoceの最新ニュース、プレスリリース、パートナーシップ、受賞・認証情報',
+    description: 'AI Globalの最新ニュース、プレスリリース、パートナーシップ、受賞・認証情報をご確認ください。',
+    ogTitle: 'ニュースルーム | AI Global',
+    ogDescription: 'AI Globalの最新ニュース、プレスリリース、パートナーシップ、受賞・認証情報',
   },
   zh: {
     title: '新闻中心',
-    description: '查看ecremmoce的最新消息、新闻稿、合作伙伴关系、获奖及认证信息。',
-    ogTitle: '新闻中心 | ecremmoce',
-    ogDescription: 'ecremmoce的最新消息、新闻稿、合作伙伴关系、获奖及认证信息',
+    description: '查看AI Global的最新消息、新闻稿、合作伙伴关系、获奖及认证信息。',
+    ogTitle: '新闻中心 | AI Global',
+    ogDescription: 'AI Global的最新消息、新闻稿、合作伙伴关系、获奖及认证信息',
   },
 };
 

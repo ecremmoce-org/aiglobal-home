@@ -10,30 +10,30 @@ const syne = Syne({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://www.ecremmoce.io'),
+  metadataBase: new URL('https://www.aiglobal.kr'),
   title: {
-    default: "ecremmoce - 글로벌 이커머스 올인원 솔루션",
-    template: "%s | ecremmoce"
+    default: "AI Global - 글로벌 이커머스 올인원 솔루션",
+    template: "%s | AI Global"
   },
   description: "판매, 배송, 관리, 성장 — 하나의 플랫폼으로 글로벌 이커머스의 모든 것을 연결합니다. acsell.ai, send4u.ai, ohmyorder.com, market4u.ai",
   keywords: [
-    "ecremmoce", "이크레모스", "이커머스", "해외판매", "글로벌커머스", "크로스보더", 
+    "AI Global", "에이아이글로벌", "이커머스", "해외판매", "글로벌커머스", "크로스보더",
     "해외배송", "주문관리", "AI마케팅", "셀러솔루션", "acsell", "send4u", "ohmyorder", "market4u",
     "Qoo10", "Shopee", "Amazon", "글로벌셀러", "역직구", "직구", "물류최적화"
   ],
-  authors: [{ name: "ecremmoce", url: "https://www.ecremmoce.io" }],
-  creator: "ecremmoce",
-  publisher: "주식회사 이크레모스",
+  authors: [{ name: "AI Global", url: "https://www.aiglobal.kr" }],
+  creator: "AI Global",
+  publisher: "주식회사 에이아이글로벌",
   formatDetection: {
     email: false,
     address: false,
     telephone: false,
   },
   openGraph: {
-    title: "ecremmoce - 글로벌 이커머스 올인원 솔루션",
+    title: "AI Global - 글로벌 이커머스 올인원 솔루션",
     description: "판매, 배송, 관리, 성장 — 글로벌 이커머스의 모든 것을 하나로. 전 세계가 당신의 마켓입니다.",
-    url: "https://www.ecremmoce.io",
-    siteName: "ecremmoce",
+    url: "https://www.aiglobal.kr",
+    siteName: "AI Global",
     locale: "ko_KR",
     alternateLocale: "en_US",
     type: "website",
@@ -42,13 +42,13 @@ export const metadata: Metadata = {
         url: "/video-thumbnails/hero-video-3-thumb.jpg",
         width: 1280,
         height: 720,
-        alt: "ecremmoce - 글로벌 이커머스 올인원 솔루션",
+        alt: "AI Global - 글로벌 이커머스 올인원 솔루션",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "ecremmoce - 글로벌 이커머스 올인원 솔루션",
+    title: "AI Global - 글로벌 이커머스 올인원 솔루션",
     description: "판매, 배송, 관리, 성장 — 글로벌 이커머스의 모든 것을 하나로.",
     images: ["/video-thumbnails/hero-video-3-thumb.jpg"],
   },
@@ -67,13 +67,13 @@ export const metadata: Metadata = {
     google: "F1BuZae_H8matgRMk1xZLH6jTQgb_OBcWE1CowyoSaQ",
   },
   alternates: {
-    canonical: "https://www.ecremmoce.io/ko",
+    canonical: "https://www.aiglobal.kr/ko",
     languages: {
-      'ko': 'https://www.ecremmoce.io/ko',
-      'en': 'https://www.ecremmoce.io/en',
-      'ja': 'https://www.ecremmoce.io/ja',
-      'zh': 'https://www.ecremmoce.io/zh',
-      'x-default': 'https://www.ecremmoce.io/ko',
+      'ko': 'https://www.aiglobal.kr/ko',
+      'en': 'https://www.aiglobal.kr/en',
+      'ja': 'https://www.aiglobal.kr/ja',
+      'zh': 'https://www.aiglobal.kr/zh',
+      'x-default': 'https://www.aiglobal.kr/ko',
     },
   },
 };
@@ -100,10 +100,10 @@ export default function RootLayout({
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "Organization",
-              "name": "ecremmoce",
-              "alternateName": "이크레모스",
-              "url": "https://www.ecremmoce.io",
-              "logo": "https://www.ecremmoce.io/video-thumbnails/hero-video-3-thumb.jpg",
+              "name": "AI Global",
+              "alternateName": "에이아이글로벌",
+              "url": "https://www.aiglobal.kr",
+              "logo": "https://www.aiglobal.kr/video-thumbnails/hero-video-3-thumb.jpg",
               "description": "글로벌 이커머스 올인원 솔루션을 제공하는 기술 기업",
               "foundingDate": "2019",
               "founder": {
@@ -119,7 +119,7 @@ export default function RootLayout({
               },
               "contactPoint": {
                 "@type": "ContactPoint",
-                "email": "contact@ecremmoce.io",
+                "email": "contact@aiglobal.kr",
                 "contactType": "customer service"
               },
               "sameAs": [
@@ -159,11 +159,11 @@ export default function RootLayout({
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "WebSite",
-              "name": "ecremmoce",
-              "url": "https://www.ecremmoce.io",
+              "name": "AI Global",
+              "url": "https://www.aiglobal.kr",
               "potentialAction": {
                 "@type": "SearchAction",
-                "target": "https://www.ecremmoce.io/ko/news?q={search_term_string}",
+                "target": "https://www.aiglobal.kr/ko/news?q={search_term_string}",
                 "query-input": "required name=search_term_string"
               }
             })
@@ -176,21 +176,21 @@ export default function RootLayout({
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "VideoObject",
-              "name": "ecremmoce - 글로벌 이커머스 올인원 솔루션 소개",
-              "description": "전 세계가 당신의 마켓입니다. ecremmoce는 판매, 배송, 관리, 성장을 하나의 플랫폼으로 연결하는 글로벌 이커머스 솔루션입니다.",
+              "name": "AI Global - 글로벌 이커머스 올인원 솔루션 소개",
+              "description": "전 세계가 당신의 마켓입니다. AI Global은 판매, 배송, 관리, 성장을 하나의 플랫폼으로 연결하는 글로벌 이커머스 솔루션입니다.",
               "thumbnailUrl": [
-                "https://www.ecremmoce.io/video-thumbnails/hero-video-3-thumb.jpg"
+                "https://www.aiglobal.kr/video-thumbnails/hero-video-3-thumb.jpg"
               ],
               "uploadDate": "2024-01-01T00:00:00+09:00",
               "duration": "PT30S",
-              "contentUrl": "https://www.ecremmoce.io/hero-video-3.mp4",
-              "embedUrl": "https://www.ecremmoce.io/ko",
+              "contentUrl": "https://www.aiglobal.kr/hero-video-3.mp4",
+              "embedUrl": "https://www.aiglobal.kr/ko",
               "publisher": {
                 "@type": "Organization",
-                "name": "ecremmoce",
+                "name": "AI Global",
                 "logo": {
                   "@type": "ImageObject",
-                  "url": "https://www.ecremmoce.io/video-thumbnails/hero-video-3-thumb.jpg",
+                  "url": "https://www.aiglobal.kr/video-thumbnails/hero-video-3-thumb.jpg",
                   "width": 1280,
                   "height": 720
                 }
@@ -204,21 +204,21 @@ export default function RootLayout({
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "VideoObject",
-              "name": "ecremmoce - Global Ecommerce Flows Seamlessly",
-              "description": "Building an Era Where Global Ecommerce Flows Seamlessly. ecremmoce connects selling, shipping, management, and growth in one platform.",
+              "name": "AI Global - Global Ecommerce Flows Seamlessly",
+              "description": "Building an Era Where Global Ecommerce Flows Seamlessly. AI Global connects selling, shipping, management, and growth in one platform.",
               "thumbnailUrl": [
-                "https://www.ecremmoce.io/video-thumbnails/hero-video-thumb.jpg"
+                "https://www.aiglobal.kr/video-thumbnails/hero-video-thumb.jpg"
               ],
               "uploadDate": "2024-01-01T00:00:00+09:00",
               "duration": "PT30S",
-              "contentUrl": "https://www.ecremmoce.io/hero-video.mp4",
-              "embedUrl": "https://www.ecremmoce.io/en",
+              "contentUrl": "https://www.aiglobal.kr/hero-video.mp4",
+              "embedUrl": "https://www.aiglobal.kr/en",
               "publisher": {
                 "@type": "Organization",
-                "name": "ecremmoce",
+                "name": "AI Global",
                 "logo": {
                   "@type": "ImageObject",
-                  "url": "https://www.ecremmoce.io/video-thumbnails/hero-video-thumb.jpg",
+                  "url": "https://www.aiglobal.kr/video-thumbnails/hero-video-thumb.jpg",
                   "width": 1280,
                   "height": 720
                 }
@@ -232,21 +232,21 @@ export default function RootLayout({
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "VideoObject",
-              "name": "ecremmoce - 연결이 혁신으로 만들어집니다",
-              "description": "연결이 혁신으로 만들어집니다. ecremmoce의 물류 및 배송 솔루션을 통해 글로벌 이커머스를 경험하세요.",
+              "name": "AI Global - 연결이 혁신으로 만들어집니다",
+              "description": "연결이 혁신으로 만들어집니다. AI Global의 물류 및 배송 솔루션을 통해 글로벌 이커머스를 경험하세요.",
               "thumbnailUrl": [
-                "https://www.ecremmoce.io/video-thumbnails/hero-video-2-thumb.jpg"
+                "https://www.aiglobal.kr/video-thumbnails/hero-video-2-thumb.jpg"
               ],
               "uploadDate": "2024-01-01T00:00:00+09:00",
               "duration": "PT30S",
-              "contentUrl": "https://www.ecremmoce.io/hero-video-2.mp4",
-              "embedUrl": "https://www.ecremmoce.io/ko",
+              "contentUrl": "https://www.aiglobal.kr/hero-video-2.mp4",
+              "embedUrl": "https://www.aiglobal.kr/ko",
               "publisher": {
                 "@type": "Organization",
-                "name": "ecremmoce",
+                "name": "AI Global",
                 "logo": {
                   "@type": "ImageObject",
-                  "url": "https://www.ecremmoce.io/video-thumbnails/hero-video-2-thumb.jpg",
+                  "url": "https://www.aiglobal.kr/video-thumbnails/hero-video-2-thumb.jpg",
                   "width": 1280,
                   "height": 720
                 }

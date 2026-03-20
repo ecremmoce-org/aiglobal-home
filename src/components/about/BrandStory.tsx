@@ -25,43 +25,17 @@ export default function BrandStory() {
             <span className="gradient-text">{t('title')}</span>
           </h2>
 
-          {/* Word Animation */}
+          {/* Brand Animation */}
           <div className="flex flex-col items-center mb-12">
-            <div className="relative">
-              {/* ecommerce */}
-              <motion.div
-                initial={{ opacity: 1 }}
-                whileInView={{ opacity: 0.3 }}
-                viewport={{ once: true }}
-                transition={{ delay: 1, duration: 0.5 }}
-                className="text-4xl md:text-6xl font-bold font-heading text-gray-500 tracking-wider"
-              >
-                ecommerce
-              </motion.div>
-
-              {/* Arrow */}
-              <motion.div
-                initial={{ opacity: 0, scale: 0 }}
-                whileInView={{ opacity: 1, scale: 1 }}
-                viewport={{ once: true }}
-                transition={{ delay: 0.5, duration: 0.3 }}
-                className="absolute left-1/2 -translate-x-1/2 -bottom-12"
-              >
-                <svg className="w-8 h-8 text-indigo-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 14l-7 7m0 0l-7-7m7 7V3" />
-                </svg>
-              </motion.div>
-            </div>
-
-            {/* ecremmoce */}
+            {/* AI Global */}
             <motion.div
-              initial={{ opacity: 0, rotateX: 180 }}
-              whileInView={{ opacity: 1, rotateX: 0 }}
+              initial={{ opacity: 0, scale: 0.8 }}
+              whileInView={{ opacity: 1, scale: 1 }}
               viewport={{ once: true }}
-              transition={{ delay: 1.2, duration: 0.8, type: 'spring' }}
-              className="mt-16 text-5xl md:text-7xl font-bold font-heading gradient-text tracking-wider"
+              transition={{ delay: 0.5, duration: 0.8, type: 'spring' }}
+              className="text-5xl md:text-7xl font-bold font-heading gradient-text tracking-wider"
             >
-              ecremmoce
+              AI Global
             </motion.div>
           </div>
 

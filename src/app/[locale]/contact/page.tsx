@@ -6,34 +6,34 @@ import ContactHero from '@/components/contact/ContactHero';
 import ContactForm from '@/components/contact/ContactForm';
 import ContactInfo from '@/components/contact/ContactInfo';
 
-const baseUrl = 'https://www.ecremmoce.io';
+const baseUrl = 'https://www.aiglobal.kr';
 const locales = ['ko', 'en', 'ja', 'zh'];
 const pagePath = '/contact';
 
 const localeMetadata: Record<string, { title: string; description: string; ogTitle: string; ogDescription: string }> = {
   ko: {
     title: '문의하기',
-    description: 'ecremmoce에 문의하세요. 글로벌 이커머스 솔루션에 대한 상담, 파트너십, 기술 지원 등 다양한 문의를 환영합니다.',
-    ogTitle: '문의하기 | ecremmoce',
-    ogDescription: 'ecremmoce에 문의하세요. 글로벌 이커머스 솔루션 상담을 환영합니다.',
+    description: 'AI Global에 문의하세요. 글로벌 이커머스 솔루션에 대한 상담, 파트너십, 기술 지원 등 다양한 문의를 환영합니다.',
+    ogTitle: '문의하기 | AI Global',
+    ogDescription: 'AI Global에 문의하세요. 글로벌 이커머스 솔루션 상담을 환영합니다.',
   },
   en: {
     title: 'Contact Us',
-    description: 'Contact ecremmoce. We welcome inquiries about global e-commerce solutions, partnerships, technical support and more.',
-    ogTitle: 'Contact Us | ecremmoce',
-    ogDescription: 'Contact ecremmoce. We welcome inquiries about global e-commerce solutions.',
+    description: 'Contact AI Global. We welcome inquiries about global e-commerce solutions, partnerships, technical support and more.',
+    ogTitle: 'Contact Us | AI Global',
+    ogDescription: 'Contact AI Global. We welcome inquiries about global e-commerce solutions.',
   },
   ja: {
     title: 'お問い合わせ',
-    description: 'ecremmoceにお問い合わせください。グローバルEコマースソリューションに関するご相談、パートナーシップ、技術サポートなど、様々なお問い合わせを歓迎します。',
-    ogTitle: 'お問い合わせ | ecremmoce',
-    ogDescription: 'ecremmoceにお問い合わせください。グローバルEコマースソリューションのご相談を歓迎します。',
+    description: 'AI Globalにお問い合わせください。グローバルEコマースソリューションに関するご相談、パートナーシップ、技術サポートなど、様々なお問い合わせを歓迎します。',
+    ogTitle: 'お問い合わせ | AI Global',
+    ogDescription: 'AI Globalにお問い合わせください。グローバルEコマースソリューションのご相談を歓迎します。',
   },
   zh: {
     title: '联系我们',
-    description: '请联系ecremmoce。我们欢迎关于全球电商解决方案、合作伙伴关系、技术支持等各种咨询。',
-    ogTitle: '联系我们 | ecremmoce',
-    ogDescription: '请联系ecremmoce。我们欢迎关于全球电商解决方案的咨询。',
+    description: '请联系AI Global。我们欢迎关于全球电商解决方案、合作伙伴关系、技术支持等各种咨询。',
+    ogTitle: '联系我们 | AI Global',
+    ogDescription: '请联系AI Global。我们欢迎关于全球电商解决方案的咨询。',
   },
 };
 

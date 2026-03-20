@@ -9,8 +9,8 @@ const mockNews = [
   {
     id: 1,
     category: 'notice',
-    title: 'ecremmoce 2024 글로벌 파트너십 확대',
-    titleEn: 'ecremmoce 2024 Global Partnership Expansion',
+    title: 'AI Global 2024 글로벌 파트너십 확대',
+    titleEn: 'AI Global 2024 Global Partnership Expansion',
     date: '2024-12-01',
     excerpt: '동남아시아 및 일본 시장에서의 새로운 파트너십을 통해 글로벌 네트워크를 확장합니다.',
   },

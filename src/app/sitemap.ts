@@ -2,7 +2,7 @@ import { MetadataRoute } from 'next';
 import { pressReleases } from '@/data/pressReleases';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://www.ecremmoce.io';
+  const baseUrl = 'https://www.aiglobal.kr';
   // 모든 지원 언어 포함 (routing.ts와 동기화)
   const locales = ['ko', 'en', 'ja', 'zh'];
   const defaultLocale = 'ko';

@@ -5,7 +5,7 @@ import Footer from '@/components/layout/Footer';
 import ServicesHero from '@/components/services/ServicesHero';
 import ServiceDetail from '@/components/services/ServiceDetail';
 
-const baseUrl = 'https://www.ecremmoce.io';
+const baseUrl = 'https://www.aiglobal.kr';
 const locales = ['ko', 'en', 'ja', 'zh'];
 const pagePath = '/services';
 
@@ -13,25 +13,25 @@ const localeMetadata: Record<string, { title: string; description: string; ogTit
   ko: {
     title: '서비스',
     description: 'acsell.ai(해외판매 가속화), send4u.ai(해외배송 최적화), ohmyorder.com(주문통합관리), market4u.ai(AI마케팅) - 글로벌 이커머스의 모든 것을 연결합니다.',
-    ogTitle: '서비스 | ecremmoce',
+    ogTitle: '서비스 | AI Global',
     ogDescription: 'acsell.ai, send4u.ai, ohmyorder.com, market4u.ai - 글로벌 이커머스의 모든 것을 연결합니다.',
   },
   en: {
     title: 'Services',
     description: 'acsell.ai (Accelerate overseas sales), send4u.ai (Optimize international shipping), ohmyorder.com (Unified order management), market4u.ai (AI Marketing) - Connecting everything in global e-commerce.',
-    ogTitle: 'Services | ecremmoce',
+    ogTitle: 'Services | AI Global',
     ogDescription: 'acsell.ai, send4u.ai, ohmyorder.com, market4u.ai - Connecting everything in global e-commerce.',
   },
   ja: {
     title: 'サービス',
     description: 'acsell.ai（海外販売加速）、send4u.ai（海外配送最適化）、ohmyorder.com（注文統合管理）、market4u.ai（AIマーケティング）- グローバルEコマースのすべてをつなぎます。',
-    ogTitle: 'サービス | ecremmoce',
+    ogTitle: 'サービス | AI Global',
     ogDescription: 'acsell.ai, send4u.ai, ohmyorder.com, market4u.ai - グローバルEコマースのすべてをつなぎます。',
   },
   zh: {
     title: '服务',
     description: 'acsell.ai（加速海外销售）、send4u.ai（优化海外物流）、ohmyorder.com（订单统一管理）、market4u.ai（AI营销）- 连接全球电商的一切。',
-    ogTitle: '服务 | ecremmoce',
+    ogTitle: '服务 | AI Global',
     ogDescription: 'acsell.ai, send4u.ai, ohmyorder.com, market4u.ai - 连接全球电商的一切。',
   },
 };

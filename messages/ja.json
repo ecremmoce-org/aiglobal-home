@@ -1,7 +1,7 @@
 {
   "common": {
-    "company": "ecremmoce",
-    "tagline": "Eコマースを逆転する",
+    "company": "AI Global",
+    "tagline": "AIで繋ぐグローバルEコマース",
     "learnMore": "詳しく見る",
     "contactUs": "お問い合わせ",
     "getStarted": "始める",
@@ -19,7 +19,7 @@
     "title": "All-in-One\nEコマース Suite",
     "subtitle": "販売 · 配送 · 管理 · 成長\nグローバルEコマースのすべてを一つのプラットフォームで。",
     "cta": "Suiteを見る",
-    "badge": "Eコマースを逆転する"
+    "badge": "AIで繋ぐグローバルEコマース"
   },
   "services": {
     "title": "サービス",
@@ -46,7 +46,7 @@
     }
   },
   "stats": {
-    "title": "数字で見るecremmoce",
+    "title": "数字で見るAI Global",
     "clients": "グローバルパートナー",
     "countries": "進出国",
     "orders": "月間処理注文",
@@ -54,11 +54,11 @@
   },
   "about": {
     "title": "会社紹介",
-    "subtitle": "Eコマースを逆転し、新しい可能性を開く",
+    "subtitle": "AIでグローバルEコマースの新しい可能性を開く",
     "story": {
-      "title": "ecremmoceの誕生",
-      "content": "ecremmoceは「ecommerce」を逆さにした造語です。私たちは決められた順序や方向に縛られません。直接購入と逆直購入、輸出と輸入 — あらゆる方向に自由に動き、グローバルコマースの新しい可能性を開いていきます。",
-      "highlight": "ecommerce → ecremmoce"
+      "title": "AI Globalの物語",
+      "content": "AI Globalは、AI技術でグローバルEコマースを繋ぐテクノロジー企業です。私たちは決められた順序や方向に縛られません。直接購入と逆直購入、輸出と輸入 — あらゆる方向に自由に動き、グローバルコマースの新しい可能性を開いていきます。",
+      "highlight": "AI + Global Commerce"
     },
     "vision": {
       "title": "ビジョン",
@@ -96,7 +96,7 @@
     "subtitle": "投資家情報",
     "overview": {
       "title": "会社概要",
-      "description": "ecremmoceはグローバルEコマースソリューションを提供する技術企業です。"
+      "description": "AI GlobalはグローバルEコマースソリューションを提供する技術企業です。"
     },
     "financials": {
       "title": "財務情報",
@@ -110,7 +110,7 @@
   },
   "news": {
     "title": "お知らせ",
-    "subtitle": "ecremmoceの最新ニュースをお届けします",
+    "subtitle": "AI Globalの最新ニュースをお届けします",
     "categories": {
       "all": "すべて",
       "notice": "お知らせ",
@@ -141,21 +141,21 @@
     "info": {
       "title": "連絡先情報",
       "address": "ソウル市瑞草区東山路8ギル41、成鉉ビル2階〜4階",
-      "email": "contact@ecremmoce.io",
+      "email": "contact@aiglobal.kr",
       "phone": "+82-2-6925-4100"
     },
     "success": "お問い合わせが正常に送信されました。"
   },
   "footer": {
-    "description": "Freedom of CBEC Sellers. Eコマースを逆転し、新しい可能性を開いていきます。",
+    "description": "Freedom of CBEC Sellers. AIでグローバルEコマースの新しい可能性を開いていきます。",
     "services": "サービス",
     "company": "会社",
     "legal": "法的事項",
     "privacy": "プライバシーポリシー",
     "terms": "利用規約",
-    "copyright": "© 2024 株式会社イクレモス. All rights reserved.",
+    "copyright": "© 2024 株式会社AIグローバル. All rights reserved.",
     "companyInfo": {
-      "name": "株式会社イクレモス",
+      "name": "株式会社AIグローバル",
       "ceo": "代表: チョン・チャンウォン",
       "address": "ソウル市瑞草区東山路8ギル41、成鉉ビル2階〜4階",
       "bizNo": "事業者登録番号: 373-87-01553",

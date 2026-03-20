@@ -69,7 +69,7 @@ const timeline = [
       { month: '', title: '온라인 수출 기업화 사업 수행 (동남아 최대 이커머스 플랫폼 SHOPEE와 중소벤처기업진흥공단)', titleEn: 'Online Export Business (SHOPEE Partnership)' },
       { month: '', title: 'NFA(NAVER 풀필먼트) 파스토와 파트너십 체결 및 솔루션 공급', titleEn: 'NFA Fassto Partnership & Solution Supply' },
       { month: '', title: '상품관리 솔루션 EMS, 주문관리 솔루션 ESS 런칭', titleEn: 'EMS & ESS Solutions Launch' },
-      { month: '06', title: '이크레모스 창업', titleEn: 'ecremmoce Founded' },
+      { month: '06', title: '에이아이글로벌 창업', titleEn: 'AI Global Founded' },
     ],
   },
 ];

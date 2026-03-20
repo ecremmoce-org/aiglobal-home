@@ -56,7 +56,7 @@ export default function Header() {
               className="text-2xl md:text-3xl lg:text-4xl font-bold font-heading tracking-tight"
               whileHover={{ scale: 1.02 }}
             >
-              <span className="gradient-text">ecremmoce</span>
+              <span className="gradient-text">AI Global</span>
             </motion.div>
           </Link>
 
