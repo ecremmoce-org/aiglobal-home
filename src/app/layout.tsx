@@ -264,7 +264,7 @@ export default function RootLayout({
             (function(){var w=window;if(w.ChannelIO){return w.console.error("ChannelIO script included twice.")}var ch=function(){ch.c(arguments)};ch.q=[];ch.c=function(args){ch.q.push(args)};w.ChannelIO=ch;function l(){if(w.ChannelIOInitialized){return}w.ChannelIOInitialized=true;var s=document.createElement("script");s.type="text/javascript";s.async=true;s.src="https://cdn.channel.io/plugin/ch-plugin-web.js";var x=document.getElementsByTagName("script")[0];if(x.parentNode){x.parentNode.insertBefore(s,x)}}if(document.readyState==="complete"){l()}else{w.addEventListener("DOMContentLoaded",l);w.addEventListener("load",l)}})();
 
             ChannelIO('boot', {
-              "pluginKey": "c09c85be-88ef-4439-8e5f-0890c89dd148"
+              "pluginKey": "0e0a096d-765d-496d-b543-9505f56e2376"
             });
           `}
         </Script>
